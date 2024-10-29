@@ -182,7 +182,7 @@ span
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 25% 8%;
+    padding: 28% 8%;
     gap: 10 em;
     background-color: black;
 
@@ -256,3 +256,21 @@ span
     color: white;
     margin: 2em 0 3em;
 }
+
+.experience h1
+{
+    position: absolute;
+    top: 2050px; left: 350px;
+    font-size: 50px;
+    line-height: 2.2;
+}
+
+.experience ul
+{
+    position: absolute;
+    top: 2120px; left: 200px;
+    font-size: 24px;
+    margin: 2em 0 3em;
+
+}
+
