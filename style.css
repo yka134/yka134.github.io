@@ -93,22 +93,34 @@ span
 
 }
 
+.home-content
+{
+    max-width: 800px;
+}
+
 .home-content h3
 {
-    font-size:42px;
+    font-size:44px;
 }
 
 .home-content h1
 {
-    font-size: 62px;
-    line-height: 1.2;
+    font-size: 60px;
+    line-height: 1.1;
+
+}
+.home-content h2
+{
+    font-size: 42px;
+    line-height: 1.4;
 
 }
 
 .home-content p
 {
-    margin: 25px 0 30px;
-    font-size: 18px;
+    margin: 20px 0 30px;
+    font-size: 28px;
+    line-height: 1.2
 }
 
 .btn-box
@@ -128,12 +140,12 @@ span
     font-weight: 500;
 
     border: 2px solid transparent;
-    border radius: 8px;
+    border-radius: 8px;
 
     transition: 0.4s ease;
     cursor: pointer;
-
 }
+  
 
 .btn-1:hover{
     color: black;
@@ -142,3 +154,9 @@ span
 
 }
 
+
+.image-box img
+{
+    border-radius: 30%;
+    max-width: 550px;
+}
