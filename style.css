@@ -160,3 +160,19 @@ span
     border-radius: 30%;
     max-width: 550px;
 }
+
+::-webkit-scrollbar
+{
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background-color: rgb(52, 204, 255);
+}
+
+::-webkit-scrollbar-track
+{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 50px;
+}
