@@ -182,7 +182,7 @@ span
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 25% 8%;
+    padding: 28% 8%;
     gap: 10 em;
     background-color: black;
 
@@ -254,5 +254,65 @@ span
     top: 1570px; left: 600px;
     font-size: 34px;
     color: white;
+    margin: 2em 0 3em;
+}
+
+.experience h1
+{
+    position: absolute;
+    top: 2050px; left: 350px;
+    font-size: 50px;
+    line-height: 2.2;
+}
+
+.experience ul
+{
+    position: absolute;
+    top: 2120px; left: 200px;
+    font-size: 24px;
+    margin: 2em 0 3em;
+
+}
+
+.experience h2
+{
+    position: absolute;
+    top: 2050px; right: 400px;
+    font-size: 50px;
+    line-height: 2.2;
+}
+
+
+.experience h3
+{
+    position: absolute;
+    top: 2120px; right: 805px;
+    font-size: 34px;
+    margin: 2em 0 3em;
+    
+}
+
+.experience p
+{
+    position: absolute;
+    top: 2180px; right: 700px;
+    font-size: 25px;
+    margin: 2em 0 3em;
+}
+
+.experience p2
+{
+    position: absolute;
+    top: 2180px; right: 240px;
+    font-size: 25px;
+    color: rgb(52, 204, 255);
+    margin: 2em 0 3em;
+}
+
+.experience ul2
+{
+    position: absolute;
+    top: 2230px; right: 550px;
+    font-size: 21px;
     margin: 2em 0 3em;
 }
