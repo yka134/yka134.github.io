@@ -22,3 +22,60 @@
     z-index: 100;
 
 }
+
+.logo
+{
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+    transition: 0.4s ease;
+}
+
+.logo:hover
+{
+    color: rgb(52, 204, 255);
+    text-shadow: 0 0 10px rgb(52, 204, 255), 0 0 20px rgb(52, 204, 255);
+    transform: scale(1.1);
+
+}
+
+span
+{
+    color: rgb(52, 204, 255);
+}
+
+.navbar a
+{
+    font-size: 23px;
+    color: white;
+    font-weight: 500;
+    margin: 0 50px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3 ease;
+}
+
+.navbar a:hover,
+.navbar a.active 
+{
+    color:rgb(52, 204, 255);
+    border-bottom: 3px solid rgb(52, 204, 255);
+}
+.contact
+{
+    padding: 10px 28px;
+    background-color: white;
+    color: black;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.contact:hover 
+{
+    background-color: rgb(52, 204, 255);
+    box-shadow: 0 0 25px rgb(52, 204, 255);
+    color: white;
+}
