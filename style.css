@@ -192,18 +192,29 @@ span
 {
     position: absolute;
     top: 1300px; left: 50px;
-    width: 200px;
+    width: 300px;
     box-shadow: 0 0 15px rgb(52, 204, 255),
                 0 0 10px rgb(52, 204, 255);
     border-radius: 30%;
 
 }
 
+.about-img2 img
+{
+    position: absolute;
+    top: 1280px; right: 200px;
+    width: 600px;
+    border-radius: 30%;
+
+}
+
+
+
 .about-content h2
 {
     
     position: absolute;
-    top: 1100px; left: 300px;
+    top: 1100px; left: 65px;
     color: white;
     font-size: 70px;
     line-height: 2.2;
@@ -213,7 +224,7 @@ span
 .about-content h3
 {
     position: absolute;
-    top: 1300px; left: 300px;
+    top: 1300px; left: 400px;
     font-size: 40px;
     color: white;
 
@@ -222,21 +233,26 @@ span
 .about-content p
 {
     position: absolute;
-    top: 1330px; left: 300px;
-    font-size: 40px;
+    top: 1300px; left: 400px;
+    font-size: 34px;
     color: white;
-    color: white;
-    font-size: 20px;
     margin: 2em 0 3em;
 }
 
 .about-content p2
 {
     position: absolute;
-    top: 1500px; left: 300px;
-    font-size: 40px;
+    top: 1500px; left: 650px;
+    font-size: 34px;
     color: white;
+    margin: 2em 0 3em;
+}
+
+.about-content p3
+{
+    position: absolute;
+    top: 1550px; left: 600px;
+    font-size: 34px;
     color: white;
-    font-size: 20px;
     margin: 2em 0 3em;
 }
