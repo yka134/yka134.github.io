@@ -7,6 +7,11 @@
     list-style: none;
 }
 
+html 
+{
+    scroll-behavior: smooth;
+}
+
 .header
 {
     position: fixed;
@@ -256,6 +261,8 @@ span
     color: white;
     margin: 2em 0 3em;
 }
+
+
 
 .experience h1
 {
