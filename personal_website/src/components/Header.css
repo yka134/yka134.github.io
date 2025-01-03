@@ -15,18 +15,19 @@
 
 }
 
+
 .logo
 {
     font-size: 30px;
     color: white;
-    font-weight: 500;
+    font-weight: 600;
     transition: 0.4s ease;
 }
 
 .logo:hover
 {
     color: rgb(52, 204, 255);
-    text-shadow: 0 0 10px rgb(52, 204, 255), 0 0 20px rgb(52, 204, 255);
+    text-shadow: 0 0 1px rgb(52, 204, 255), 0 0 1px rgb(52, 204, 255);
     transform: scale(1.1);
 
 }
@@ -40,10 +41,11 @@ span
 {
     font-size: 23px;
     color: white;
-    font-weight: 500;
+    font-weight: 600;
     margin: 0 50px;
     border-bottom: 3px solid transparent;
-    transition: 0.3 ease;
+    transition: transform 0.3s ease, color 0.3s ease, border-bottom 0.3s ease;
+    display: inline-block; 
 }
 
 .navbar a:hover,
@@ -51,6 +53,7 @@ span
 {
     color:rgb(52, 204, 255);
     border-bottom: 3px solid rgb(52, 204, 255);
+    transform: scale(1.1);
 }
 .contact
 {
@@ -68,6 +71,50 @@ span
 .contact:hover 
 {
     background-color: rgb(52, 204, 255);
-    box-shadow: 0 0 25px rgb(52, 204, 255);
+    box-shadow: 0 0 3px rgb(52, 204, 255);
     color: white;
+    transform: scale(1.1);
 }
+
+/* Semi-Responsive Design */
+@media (max-width: 1200px) {
+    .header {
+      padding: 15px 5%;
+    }
+    .navbar a {
+      font-size: 18px;
+      color: white;
+      font-weight: 600;
+      margin: 0 20px;
+      transition: transform 0.3s ease, color 0.3s ease, border-bottom 0.3s ease;
+      display: inline-block; 
+    }
+
+    .logo {
+      font-size: 25px;
+      color: white;
+      font-weight: 600;
+      transition: 0.4s ease;
+    }
+
+    .about-us {
+      padding: 5px 15px;
+      background-color: white;
+      color: #4f593e; 
+      border: 2px solid transparent;
+      border-radius: 8px;
+      font-size: 12px;
+      letter-spacing: 1px;
+      font-weight: 600;
+      transition: 0.3s ease;
+    }
+    body {
+      padding-top: 60px;
+    }
+  }
+  
+  @media (max-height: 650px){
+    .header {
+      padding: 15px 5%;
+    }
+  }
