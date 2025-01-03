@@ -1,0 +1,41 @@
+
+.education h2
+{
+    position: absolute;
+    top: 2500px; right: 850px;
+    font-size: 50px;
+    line-height: 2.2;
+}
+
+.education-img img
+{
+    position: absolute;
+    top: 2600px; left: 550px;
+    width: 200px;
+}
+
+.education h3 
+{
+    font-weight: bold;
+    position: absolute;
+    top: 2550px; right: 808px;
+    font-size: 27px;
+    margin: 2em 0 3em;
+}
+
+.education p 
+{
+    font-weight: bold;
+    position: absolute;
+    top: 2594px; right: 756px;
+    font-size: 24px;
+    margin: 2em 0 3em;
+}
+.education p2 
+{
+    font-weight: bold;
+    position: absolute;
+    top: 2637px; right: 754px;
+    font-size: 20px;
+    margin: 2em 0 3em;
+}
