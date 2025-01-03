@@ -39,7 +39,7 @@ html
 .logo:hover
 {
     color: rgb(52, 204, 255);
-    text-shadow: 0 0 10px rgb(52, 204, 255), 0 0 20px rgb(52, 204, 255);
+    text-shadow: 0 0 2px rgb(52, 204, 255), 0 0 2px rgb(52, 204, 255);
     transform: scale(1.1);
 
 }
@@ -81,7 +81,7 @@ span
 .contact:hover 
 {
     background-color: rgb(52, 204, 255);
-    box-shadow: 0 0 25px rgb(52, 204, 255);
+    box-shadow: 0 0 2px rgb(52, 204, 255);
     color: white;
 }
 
@@ -178,7 +178,7 @@ span
 
 ::-webkit-scrollbar-track
 {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.9);
     width: 50px;
 }
 
@@ -198,8 +198,8 @@ span
     position: absolute;
     top: 1300px; left: 50px;
     width: 300px;
-    box-shadow: 0 0 15px rgb(52, 204, 255),
-                0 0 10px rgb(52, 204, 255);
+    box-shadow: 0 0 10px rgb(52, 204, 255),
+                0 0 1px rgb(52, 204, 255);
     border-radius: 30%;
 
 }
@@ -207,7 +207,7 @@ span
 .about-img2 img
 {
     position: absolute;
-    top: 1280px; right: 200px;
+    top: 1500px; right: 50px;
     width: 600px;
     border-radius: 30%;
 
@@ -247,7 +247,7 @@ span
 .about-content p2
 {
     position: absolute;
-    top: 1520px; left: 650px;
+    top: 1670px; left: 825px;
     font-size: 34px;
     color: white;
     margin: 2em 0 3em;
@@ -256,7 +256,7 @@ span
 .about-content p3
 {
     position: absolute;
-    top: 1570px; left: 600px;
+    top: 1720px; left: 775px;
     font-size: 34px;
     color: white;
     margin: 2em 0 3em;
@@ -267,7 +267,7 @@ span
 .experience h1
 {
     position: absolute;
-    top: 2050px; left: 350px;
+    top: 2300px; left: 400px;
     font-size: 50px;
     line-height: 2.2;
 }
@@ -275,7 +275,7 @@ span
 .experience ul
 {
     position: absolute;
-    top: 2120px; left: 200px;
+    top: 2370px; left: 200px;
     font-size: 24px;
     margin: 2em 0 3em;
 
@@ -284,7 +284,7 @@ span
 .experience h2
 {
     position: absolute;
-    top: 2050px; right: 400px;
+    top: 2300px; right: 390px;
     font-size: 50px;
     line-height: 2.2;
 }
@@ -293,7 +293,7 @@ span
 .experience h3
 {
     position: absolute;
-    top: 2120px; right: 805px;
+    top: 2370px; right: 805px;
     font-size: 34px;
     margin: 2em 0 3em;
     
@@ -302,7 +302,7 @@ span
 .experience p
 {
     position: absolute;
-    top: 2180px; right: 700px;
+    top: 2430px; right: 700px;
     font-size: 25px;
     margin: 2em 0 3em;
 }
@@ -310,7 +310,7 @@ span
 .experience p2
 {
     position: absolute;
-    top: 2180px; right: 240px;
+    top: 2430px; right: 240px;
     font-size: 25px;
     color: rgb(52, 204, 255);
     margin: 2em 0 3em;
@@ -319,7 +319,7 @@ span
 .experience ul2
 {
     position: absolute;
-    top: 2230px; right: 550px;
+    top: 2480px; right: 550px;
     font-size: 21px;
     margin: 2em 0 3em;
 }
@@ -328,7 +328,7 @@ span
 .education h2
 {
     position: absolute;
-    top: 2500px; right: 850px;
+    top: 2775px; right: 1320px;
     font-size: 50px;
     line-height: 2.2;
 }
@@ -336,24 +336,39 @@ span
 .education-img img
 {
     position: absolute;
-    top: 2600px; left: 550px;
+    top: 2900px; left: 200px;
     width: 200px;
+}
+
+.education-img2 img
+{
+    position: absolute;
+    top: 2750px; right: 560px;
+    width: 400px;
 }
 
 .education h3 
 {
     font-weight: bold;
     position: absolute;
-    top: 2550px; right: 808px;
+    top: 2850px; right: 1158px;
     font-size: 27px;
     margin: 2em 0 3em;
+}
+
+.education h4 
+{
+    position: absolute;
+    top: 2775px; right: 468px;
+    font-size: 50px;
+    line-height: 2.2;
 }
 
 .education p 
 {
     font-weight: bold;
     position: absolute;
-    top: 2594px; right: 756px;
+    top: 2894px; right: 1106px;
     font-size: 24px;
     margin: 2em 0 3em;
 }
@@ -361,15 +376,51 @@ span
 {
     font-weight: bold;
     position: absolute;
-    top: 2637px; right: 754px;
+    top: 2937px; right: 1098px;
     font-size: 20px;
+    margin: 2em 0 3em;
+}
+
+.education p3 
+{
+    font-weight: bold;
+    position: absolute;
+    top: 2850px; right: 350px;
+    font-size: 27px;
+    margin: 2em 0 3em;
+}
+
+.education p4 
+{
+    font-weight: bold;
+    position: absolute;
+    top: 2890px; right: 270px;
+    font-size: 27px;
+    margin: 2em 0 3em;
+}
+
+.education p5 
+{
+    font-weight: bold;
+    position: absolute;
+    top: 2930px; right: 220px;
+    font-size: 27px;
+    margin: 2em 0 3em;
+} 
+
+.education ul
+{
+    font-weight: bold;
+    position: absolute;
+    top: 2800px; right: 415px;
+    font-size: 18px;
     margin: 2em 0 3em;
 }
 
 .footer
 {
     position: absolute;
-    bottom: -2000px;
+    bottom: -2300px;
     left: 0;
     width: 100%;
     padding: 35px 12%;
